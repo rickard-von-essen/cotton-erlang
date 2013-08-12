@@ -1,0 +1,71 @@
+<!--#include virtual="/header.html" -->
+
+<div id="center" class="Content2Column">
+    <div id="content">
+
+        <h1 class="FirstChild">News</h1>
+
+		<h2>November 25 2007 0.2.0 Release</h2>
+        <ul>
+			<li>Hessian 2.0 implementation</li>
+			<li>Please not that this project has moved to <a href="http://code.google.com/p/cotton/">Google Code</a></li>
+		</ul>
+
+		<h2>November 17 2007 0.1.6 Release</h2>
+        <ul><li>Bug fix for the encoding of void method returns</li></ul>
+
+        <h2>November 4 2007 0.1.5 Release</h2>
+        <ul>
+            <li>
+                Added reply encoding for faults, preliminary support for references.
+            </li>
+        </ul>
+
+
+        <h2>October 28 2007 0.1.4 Release</h2>
+        <ul>
+            <li>
+                Added encoding of doubles, booleans, null values and service faults.
+            </li>
+        </ul>
+
+        <h2>October 27 2007 0.1.3 Release</h2>
+        <ul>
+            <li>
+                Added encoding of ok return type in Erlang to a void type in Hessian.
+                Bug fixes for list handling.
+            </li>
+        </ul>
+
+        <h2>October 17 2007 0.1.2 Release</h2>
+        <ul>
+            <li>
+                Complete refactoring to use Erlang binaries instead of lists.
+            </li>
+        </ul>
+
+
+        <h2>July 12 2007 0.1.1 Release</h2>
+        <ul>
+            <li>
+                More integration tests with caucho's HessianServlet.
+                Support for record types in Erlang and typed maps (aka Objects).
+            </li>
+        </ul>
+
+
+        <h2>June 15 2007 First integration test</h2>
+        <ul>
+            <li>Integration test with caucho's HessianServlet. Initial support for lists and maps.</li>
+        </ul>
+        
+        <h2>May 26 2007 Initial code drop of cotton published</h2>
+        <ul>
+            <li>Basic call and reply encoding. Integers, Strings and Dates are supported.</li>
+        </ul>
+        <br><br>
+
+    </div>
+</div>
+
+<!--#include virtual="/footer.html" -->

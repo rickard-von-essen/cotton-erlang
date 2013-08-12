@@ -1,0 +1,29 @@
+<!--#include virtual="/header.html" -->
+
+<div id="center" class="Content2Column">
+    <div id="content">
+
+        <h1 class="FirstChild">Cotton</h1>
+
+        <p>
+            Cotton is an implementation of the Hessian 2.0 protocol in Erlang.
+            This project has moved to the <a href="http://code.google.com/p/cotton/">Cotton project</a> on Google Code.
+        </p>
+
+        <br><br>
+
+        <p>Last published <!--#config timefmt="%d %B %Y" --><!--#flastmod file="index.shtml" --></p>
+
+        <br><br>
+
+
+
+    </div>
+</div>
+
+
+<!--#include virtual="/footer.html" -->
+
+
+
+

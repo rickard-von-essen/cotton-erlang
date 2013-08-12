@@ -1,0 +1,34 @@
+<!--#include virtual="/header.html" -->
+
+<div id="center" class="Content2Column">
+    <div id="content">
+
+        <h1 class="FirstChild">Features</h1>
+
+
+        <h2>Supports Hessian 1.0.2 Encoding and Decoding of the following</h2>
+        <ul>
+            <li>Strings</li>
+            <li>Integers (32 and 64 bit)</li>
+            <li>Dates</li>
+            <li>Floating point numbers</li>
+            <li>Booleans</li>
+            <li>Null values</li>
+            <li>Lists (untyped)</li>
+            <li>Maps (untyped and typed)</li>
+            <li>Calls</li>
+            <li>Replies (void return types and with arguments)</li>
+            <li>Faults (Service or applications exceptions)</li>
+        </ul>
+
+        <h2>Integration scenarios</h2>
+        <ul>
+            <li>Integration scenario with a remote Java Hessian server</li>
+        </ul>
+
+        <br><br>
+
+    </div>
+</div>
+
+<!--#include virtual="/footer.html" -->

@@ -1,0 +1,18 @@
+Cotton Hessian Library for Erlang
+---------------------------------
+
+Cotton is a Hessian 2.0 implementation for the Erlang programming language. 
+This is a small README.
+
+Build the cotton library
+------------------------
+
+$ make
+
+Run the Tests
+-------------
+
+To run the tests you will need to have eunit on your include path.
+
+$ make test
+

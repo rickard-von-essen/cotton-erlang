@@ -1,0 +1,52 @@
+<!--#include virtual="/header.html" -->
+
+<div id="center" class="Content2Column">
+    <div id="content">
+
+        <h1 class="FirstChild">Examples</h1>
+
+        <h2>Invoking a Remote Hessian Service</h2>
+
+        <p>
+            This demonstrates how to invoke the following Java interface
+        </p>
+
+        <div class="Source Java">
+            <pre>
+public interface TestService {
+
+   int add(int a, int b);
+
+}
+            </pre>
+        </div>
+
+        <p>
+            which is deployed as a <a href="http://caucho.com/resin-3.0/protocols/hessian.xtp#Hessian-Service">Hessian servlet</a>
+            in a servlet container. The following Erlang code shows how to invoke the service:
+        </p>
+
+        <div class="Source Java">
+            <pre>
+-define(Url, "http://localhost:2345/").
+-define(Mime, "x-application/hessian").
+
+Call = hessian:encode_call("add", [2,3] ),
+{ok, {{Version, ReplyCode, ReasonPhrase}, Headers, Response}} =
+      http:request(post, {?Url, [], ?Mime , Call}, [], []),
+Result = hessian:decode( Response )
+            </pre>
+        </div>
+
+        <p>
+            The value of the Result variable will be 5.
+        </p>
+
+
+        <br><br>
+
+    </div>
+</div>
+
+
+<!--#include virtual="/footer.html" -->

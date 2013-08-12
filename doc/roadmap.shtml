@@ -1,0 +1,26 @@
+<!--#include virtual="/header.html" -->
+
+<div id="center" class="Content2Column">
+    <div id="content">
+
+        <h1 class="FirstChild">Roadmap</h1>
+
+
+        <h2>Soonish</h2>
+        <ul>
+            <li>Complete implementation of the 1.0.2 specification.</li>
+            <li>Integration scenario with an Erlang server and a foreign language client.</li>
+        </ul>
+        
+        <h2>Later</h2>
+        <ul>
+            <li>Implementation of the 2.0 specification</li>
+        </ul>
+
+
+        <br><br>
+
+    </div>
+</div>
+
+<!--#include virtual="/footer.html" -->
