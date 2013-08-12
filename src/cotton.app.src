@@ -1,0 +1,12 @@
+{application, cotton,
+ [
+  {description, ""},
+  {vsn, "0.3.3"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { cotton_app, []}},
+  {env, []}
+ ]}.
